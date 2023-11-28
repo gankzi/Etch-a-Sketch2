@@ -39,20 +39,19 @@ main {
 }
 
 #main-container {
-    position: relative;
     margin: 0 auto;
-    width: 35%;
-    height: 0;
-    padding-bottom: 35%;
+    width: 1000px;
+    height: 1000px;
     border: 1px solid black;
     display: grid;
-    grid-row: 1fr 1fr;
-    grid-column: 1fr 1fr;
 }
 
-.boxes {
-    border: none;
-    background-color: beige;
+.boxes {    
+    border: 0.5px solid rgb(216, 212, 212);
+}
+
+button {
+    background-color: rgb(228, 228, 228);
 }
 
 button:hover {
